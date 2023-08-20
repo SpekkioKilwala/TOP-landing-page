@@ -75,7 +75,7 @@ button {
     font-weight: bold;
     border-radius: 5px;
     border: 0px;
-    padding: 5px 20px;
+    padding: 8px 20px;
     width: 100px;
     cursor: pointer;
 }
@@ -150,9 +150,7 @@ button {
     height: 160px;
     color: #FFFFFF;
     border-radius: 10px;
-    border: 3px;
-    border-style: solid;
-    border-color: #3882F6;
+    border: 3px solid #3882F6;
 }
 
 .caption {
@@ -182,3 +180,32 @@ button {
     font-weight: 700;
 }
 
+.action {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.action-text {
+    color: #FFFFFF;
+    margin: 30px 0px 30px 64px;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup-button {
+    border: 2px solid #F9FAF8;
+    margin: 30px 64px;
+}
