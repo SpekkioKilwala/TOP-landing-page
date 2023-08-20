@@ -46,7 +46,7 @@ ul {
 
 .slice {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .side-by-side {
@@ -99,7 +99,50 @@ button {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    /* Shoves everything to the middle, but I need the swatches in the middle */
+    /* justify-content: center; */
+}
+
+.slice-before,
+.slice-after {
+    height: 100px;
+ }
+
+ .slice-before {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.swatch-row {
+    display: flex;
     flex-direction: row;
+    gap: 20px;
+    /* THIS thing needs to be in the CENTER of its containing div. */
+    /* It's already ALIGNED, and there's no such thing as justify-self. */
+    /* align-self: center; */
+    /* justify-self: center; */
+}
+
+.pic-and-caption {
+    /* Remove or comment out border stuff when I'm done on layout */
+    border: 1px;
+    border-style: dotted;
+    border-color: hotpink;
+    /* end of border stuff */
+
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic {
+    width: 100px;
+    height: auto;
 }
 
 .quote {
