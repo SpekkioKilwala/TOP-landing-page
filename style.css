@@ -34,6 +34,10 @@ ul {
     gap: 20px;
 }
 
+.link {
+    cursor: pointer;
+}
+
 .header, 
 .hero-secondary {
     font-size: 18px;
@@ -42,6 +46,7 @@ ul {
 
 .slice {
     display: flex;
+    justify-content: center;
 }
 
 .side-by-side {
@@ -92,7 +97,6 @@ button {
     justify-content: center;
     align-items: center;
 }
-
 
 .info {
     flex-direction: row;
