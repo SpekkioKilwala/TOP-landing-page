@@ -116,12 +116,15 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    align-items: center;
 }
 
 .swatch-row {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 48px;
+    min-height: 200px;
     /* THIS thing needs to be in the CENTER of its containing div. */
     /* It's already ALIGNED, and there's no such thing as justify-self. */
     /* align-self: center; */
@@ -130,19 +133,30 @@ button {
 
 .pic-and-caption {
     /* Remove or comment out border stuff when I'm done on layout */
-    border: 1px;
+    /* border: 1px;
     border-style: dotted;
-    border-color: hotpink;
+    border-color: hotpink; */
     /* end of border stuff */
 
-    width: 100px;
+    width: 160px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 .pic {
-    width: 100px;
-    height: auto;
+    width: 160px;
+    height: 160px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.caption {
+    text-align: center;
 }
 
 .quote {
