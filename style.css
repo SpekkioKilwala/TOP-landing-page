@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.top,
+.footer {
+    background-color: #1F2937;
+}
+
+.slice {
+    display: flex;
+}
+
+.info {
+    flex-direction: row;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
