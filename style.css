@@ -46,7 +46,7 @@ ul {
 
 .slice {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .side-by-side {
