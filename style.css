@@ -161,4 +161,24 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
+
+.quotation {
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    align-self: center;
+}
+
+.quote .slice-after {
+    width: 700px;
+    align-self: center;
+    text-align: end;
+    font-size: 24px;
+    font-weight: 700;
+}
+
